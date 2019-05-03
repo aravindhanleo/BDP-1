@@ -2,8 +2,7 @@
 #include <bits/stdc++.h> 
 using namespace std; 
 
-// return the number of common subsequence in 
-// two strings 
+// return the number of common subsequence in two strings 
 int CommomSubsequencesCount(string s1, string s2) 
 { 
 	int n1 = s1.length(); 
@@ -34,7 +33,7 @@ int CommomSubsequencesCount(string s1, string s2)
 	return dp[n1][n2]; 
 } 
 
-// Driver Program 
+// Main Program 
 int main() 
 { 
 	string s1 = "ABAZDC"; 
